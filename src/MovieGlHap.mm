@@ -9,6 +9,10 @@
 #include "cinder/Cinder.h"
 #include "cinder/app/App.h"
 #include "MovieGlHap.h"
+#import "HapPixelBufferTexture.h"
+extern "C" {
+#include "HapSupport.h"
+}
 
 #define IS_HAP(hapTexture)		(CVPixelBufferGetPixelFormatType(hapTexture.buffer)==kHapPixelFormatTypeRGB_DXT1)
 #define IS_HAP_A(hapTexture)	(CVPixelBufferGetPixelFormatType(hapTexture.buffer)==kHapPixelFormatTypeRGBA_DXT5)

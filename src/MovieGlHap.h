@@ -12,11 +12,11 @@
 #include "cinder/gl/gl.h"
 #include "cinder/gl/Fbo.h"
 
-extern "C" {
-#import "HapSupport.h"
-#import "HapPixelBufferTexture.h"
-}
-
+#ifdef __OBJC__
+@class HapPixelBufferTexture;
+#else
+class HapPixelBufferTexture;
+#endif
 
 namespace cinder { namespace qtime {
 	
