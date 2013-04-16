@@ -13,7 +13,7 @@ For general information about Hap, read the [the Hap announcement](http://vdmx.v
 
 For technical information about Hap, see [the Hap project](http://github.com/vidvox/hap).
 
-Cinder-Hap is developed for Mac OSX only.
+The Hap codec is developed for Mac OSX only, but a Windows version is in the works.
 
 How it works
 ============
